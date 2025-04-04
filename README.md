@@ -22,18 +22,12 @@
   - pyperclip
   - keyboard
 
-## 安裝方法
-
-1. 安裝所需庫：
-   ```bash
-   pip install opencc-python-reimplemented pyperclip keyboard
-
 ## 配置文件說明
 程序會讀取同目錄下的 t2c_settings.ini 配置文件，結構如下：
   ```bash
 [DEFAULT]
 key = f4  ; 設置觸發熱鍵
-fix_text = [['捷径','快捷方式'], ['fps','帧数']]  ; 自定義替換詞彙列表
+fix_text = [['捷徑','快捷方式'], ['fps','帧数']]  ; 自定義替換詞彙列表
   ```
 ## 自定義設置
 修改 t2c_settings.ini 文件中的 key 值可以更改觸發熱鍵
@@ -43,7 +37,7 @@ fix_text = [['捷径','快捷方式'], ['fps','帧数']]  ; 自定義替換詞�
 ## 注意事項
 1. 程序需要管理員權限才能監聽全局鍵盤事件
 2. 使用前請確保已正確安裝所有依賴庫
-3. 按ESC鍵可退出程序（代碼中目前註釋了此功能）
+
 
 
 
